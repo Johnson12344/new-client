@@ -32,7 +32,7 @@ const UseContextProvider = ({children})=>{
    const [state, dispatch] = useReducer(reducer, initialState)
    
     const getOTP = async()=>{
-        const res = await axios.get("https://boa-api.vercel.app/api/verify") 
+        const res = await axios.get("https://new-api-kappa.vercel.app/api/verify") 
         dispatch({type:"GET_OTP", payload:res.data})
     }
 
