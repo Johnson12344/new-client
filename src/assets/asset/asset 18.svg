@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="75px" height="75px" viewBox="0 0 75 75" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>work-icon</title>
+    <g id="work-icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons/finance/cashflow-copy-3" transform="translate(-0.000000, 0.000000)">
+            <g id="Group" fill="#FFFFFF" opacity="0">
+                <g id="icon-bounding-box">
+                    <rect id="Ø-library-elements/Icons/icon-bounding-box" x="0" y="0" width="75" height="75"></rect>
+                </g>
+            </g>
+            <g id="nested-icon">
+                <g id="Group" fill="#FFFFFF" opacity="0">
+                    <g id="icon-bounding-box">
+                        <rect id="Ø-library-elements/Icons/icon-bounding-box" x="0" y="0" width="75" height="75"></rect>
+                    </g>
+                </g>
+                <path d="M50,21.875 L50,18.75 C50,11.8464406 44.4035594,6.25 37.5,6.25 C30.5964406,6.25 25,11.8464406 25,18.75 L25,21.875 L15.625,21.875 L15.625,68.75 L59.375,68.75 L59.375,21.875 L50,21.875 Z M28.125,18.75 C28.125,13.5723305 32.3223305,9.375 37.5,9.375 C42.6776695,9.375 46.875,13.5723305 46.875,18.75 L46.875,21.875 L28.125,21.875 L28.125,18.75 Z M56.25,65.625 L18.75,65.625 L18.75,25 L25,25 L25,31.25 L28.125,31.25 L28.125,25 L46.875,25 L46.875,31.25 L50,31.25 L50,25 L56.25,25 L56.25,65.625 Z" id="icon" fill="#000000"></path>
+            </g>
+        </g>
+    </g>
+</svg>
