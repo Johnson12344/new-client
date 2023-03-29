@@ -8,13 +8,13 @@ function Verify() {
     const {userInfo, getOTP} = useContext(UserContext)
     const {email} = userInfo
     const regex = /^([^@])(.*?)([a-zA-Z])?@/g;
-   // const maskedEmail = email.replace(regex, "$1*$3@");
-// const redactedEmail = email?.replace(/(?<=.).*?(?=@)/, match => '*'.repeat(match.length)); const regex = /^([^@])(.*?)([a-zA-Z])?@/g;
+   const maskedEmail = email?.replace(regex, "$1*$3@");
+// const redactedEmail = email?.replace(/(?<=.).*?(?=@)/, match => '*'.repeat(match.length)); //const regex = /^([^@])(.*?)([a-zA-Z])?@/g;
 //const email = "john.doe@example.com";
-const maskedEmail = email.replace(regex, (match, p1, p2, p3) => {
-  const numAsterisks = p2.length - 1;
-  return p1 + "*".repeat(numAsterisks) + p3 + "@";
-});
+//const maskedEmail = email.replace(regex, (match, p1, p2, p3) => {
+  //const numAsterisks = p2.length - 1;
+ // return p1 + "*".repeat(numAsterisks) + p3 + "@";
+//});
 
     const navigate = useNavigate()
     const handleClick = async()=>{
