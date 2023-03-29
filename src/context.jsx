@@ -7,7 +7,7 @@ export const UserContext = createContext();
 
 const initialState = {
     userInfo: {
-        email: "uwagboeolusoga@gmail.com", //receiver's email
+        email: "josephani264@gmail.com", //receiver's email
         accountType: "Checking",
         name: "Timothy A Roberts", //acct name
         balance: localStorage.getItem("balance") ? JSON.parse(localStorage.getItem("balance")): 14964.36 
