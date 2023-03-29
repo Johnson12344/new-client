@@ -7,8 +7,16 @@ import { UserContext } from "../context";
 function Verify() {
     const {userInfo, getOTP} = useContext(UserContext)
     const {email} = userInfo
-    const regex = /^([^@])(.*?)([a-zA-Z])?@/g;
-   const maskedEmail = email?.replace(regex, "$1*$3@");
+
+
+//const email = "example1234@email.com";
+const regex = /^.{1}([^@]*)/; 
+const maskedEmail = email?.replace(regex, (match, group) => match[0] + group.replace(/\S/g, "*"));
+//console.log(replacedEmail);
+
+
+    //const regex = /^([^@])(.*?)([a-zA-Z])?@/g;
+   //const maskedEmail = email?.replace(regex, "$1*$3@");
 // const redactedEmail = email?.replace(/(?<=.).*?(?=@)/, match => '*'.repeat(match.length)); //const regex = /^([^@])(.*?)([a-zA-Z])?@/g;
 //const email = "john.doe@example.com";
 //const maskedEmail = email.replace(regex, (match, p1, p2, p3) => {
